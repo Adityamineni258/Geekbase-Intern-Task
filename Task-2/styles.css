@@ -1,0 +1,127 @@
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+            margin: 0;
+            padding: 20px;
+            color: #2c3e50;  /* Darker text color */
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: linear-gradient(to right, #ffffff, #f2f2f2);  /* Lighter background */
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;  /* Darker color */
+            margin-bottom: 25px;
+            font-size: 36px;
+        }
+        h2 {
+            color: #2c3e50;  /* Darker color */
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        th, td {
+            padding: 14px 20px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: linear-gradient(to right, #3498db, #2c3e50);  /* Higher contrast */
+            color: white;
+            font-weight: bold;
+        }
+        td {
+            background-color: #ffffff;
+            color: #2c3e50;  /* Darker text color */
+        }
+        form {
+            background: linear-gradient(to right, #f9f9f9, #ebebeb);  /* Lighter background */
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            margin-bottom: 5px;
+            color: #2c3e50;  /* Darker color */
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], input[type="password"], select {
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 16px;
+            transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            color: #2c3e50;  /* Darker text color */
+            background-color: #fff;
+        }
+        input:focus {
+            border-color: #3498db;
+            box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+            outline: none;
+        }
+        .btn-group {
+            display: flex;
+            justify-content: space-between;
+        }
+        .btn-group button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+            color: white;  /* White text for better contrast */
+        }
+        .btn-submit {
+            background: linear-gradient(to right, #27ae60, #2ecc71);  /* More vibrant gradient */
+        }
+        .btn-submit:hover {
+            background: linear-gradient(to right, #2ecc71, #27ae60);
+            transform: scale(1.05);
+        }
+        .btn-reset {
+            background: linear-gradient(to right, #e74c3c, #c0392b);  /* More vibrant gradient */
+        }
+        .btn-reset:hover {
+            background: linear-gradient(to right, #c0392b, #e74c3c);
+            transform: scale(1.05);
+        }
+        .success-message {
+            display: none;
+            margin-top: 20px;
+            color: #2ecc71;
+            font-weight: bold;
+            text-align: center;
+            background-color: #eafaf1;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 18px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #2c3e50;  /* Darker footer text */
+        }
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    
